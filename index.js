@@ -16,7 +16,7 @@
 /* Ejercicio:16 */ import {isPrimeNumber} from "./src/ejercicio-16.js";
 /* Ejercicio:17 */ import {checkCanDrive} from "./src/ejercicio-17.js";
 /* Ejercicio:18 */ import {checkExamScore} from "./src/ejercicio-18.js";
-/* Ejercicio:19 */ import {checkDNI} from "./src/ejercicio-19.js";
+/* Ejercicio:19 */ import {checkDni} from "./src/ejercicio-19.js";
 
 function app() {
 

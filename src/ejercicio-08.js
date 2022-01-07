@@ -2,9 +2,12 @@
 
 export let countVowelA = (frase) => {
     let vowel_a = /[a]/gi;
-    let num_of_a = frase.match(vowel_a);
-    if(num_of_a.length > 0) {
-        document.getElementById('ejercicio-08-solucion').innerHTML = `Hay ${num_of_a.length} vocales A en la frase`;
+    let numa = frase.match(vowel_a);
+    if(frase.match(vowel_a) && numa == 1) {
+        document.getElementById('ejercicio-08-solucion').innerHTML = `Hay ${numa} vocal A en la frase`;
+    }
+    if(frase.match(vowel_a) && numa > 1) {
+        document.getElementById('ejercicio-08-solucion').innerHTML = `Hay ${numa} vocales A en la frase`;
     }
     document.getElementById('ejercicio-08-solucion').innerHTML = `No hay vocales A en la frase`;
 }
