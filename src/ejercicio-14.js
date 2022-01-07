@@ -7,6 +7,6 @@ export let numberDividers = (num_01) => {
             divider.innerHTML = `El número ${num_01} es divisible por ${i}`;
             document.getElementById('ejercicio-14-solucion').appendChild (divider);
         }
-        `El número ${num_01} no es divisible por ${i}`
+        `Ejercicio 14: El número ${num_01} no es divisible por ${i}`
     }
 }

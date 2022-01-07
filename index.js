@@ -25,6 +25,9 @@ function app() {
     let num_03 = parseInt(prompt ('Introduce el tercer número'));
     let frase = prompt ('Introduce una frase');
     let dni_number = parseInt(prompt ('Introduce número DNI entre 0 y 99999999'));
+    document.getElementById('numeros').innerHTML = `Números dados: ${num_01},${num_02},${num_03}`;
+    document.getElementById('frase').innerHTML = `Frase dada: ${frase}`;
+    document.getElementById('dni_numero').innerHTML = `Número DNI dado: ${dni_number}`;
 
     writeHelloWorld();
     sumar(3,5);

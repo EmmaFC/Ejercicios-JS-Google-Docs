@@ -15,8 +15,8 @@ export let getNumberOfEachVowel = (frase) => {
     
     if (numberVowels > 0 ){
         document.getElementById('ejercicio-11-solucion').innerHTML = 
-        `Hay ${number_of_a} vocales a, ${number_of_e}vocales e, ${number_of_i} vocales i, ${number_of_o}vocales o, ${number_of_u} vocales u en la frase`;
+        `Ejercicio 11: Hay ${number_of_a} vocales a, ${number_of_e}vocales e, ${number_of_i} vocales i, ${number_of_o}vocales o, ${number_of_u} vocales u en la frase`;
     }
         document.getElementById('ejercicio-11-solucion').innerHTML = 
-        `No hay vocales en la frase`;
+        `Ejercicio 11: No hay vocales en la frase`;
     }

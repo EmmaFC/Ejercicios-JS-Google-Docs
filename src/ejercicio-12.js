@@ -11,6 +11,6 @@ export let checkNumberDivisibleBy = (num_01) => {
             return count;
         }
     }
-    document.getElementById('ejercicio-12-solucion').innerHTML = `El número ${num_01} es divisible por ${count} de los siguientes números: 2, 3, 5 o 7`;    
+    document.getElementById('ejercicio-12-solucion').innerHTML = `Ejercicio 12: El número ${num_01} es divisible por ${count} de los siguientes números: 2, 3, 5 o 7`;    
 
 }
