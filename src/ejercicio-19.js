@@ -2,14 +2,13 @@
 
 export let checkDni = (dni_number) => {
 
-    do {
+    while (isNaN(dni_number)) {
         dni_number = prompt ('Introduce un dato numérico');
-    } while (isNaN(dni_number))
+    }
 
-    do {
+    while (dni_number < 0 || dni_number > 99999999) {
         dni_number = prompt ('Introduce un número válido');
-     } while (dni_number < 0 || dni_number > 99999999)
-
+     } 
 
     if  (dni_number > 0 || dni_number <= 99999999){
         let result = dni_number % 23;
