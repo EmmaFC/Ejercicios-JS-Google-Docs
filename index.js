@@ -24,6 +24,7 @@ function app() {
     let num_02 = parseInt(prompt ('Introduce el segundo número'));
     let num_03 = parseInt(prompt ('Introduce el tercer número'));
     let frase = prompt ('Introduce una frase');
+    let dni_number = parseInt(prompt ('Introduce número DNI entre 0 y 99999999'));
 
     writeHelloWorld();
     sumar(3,5);
@@ -43,7 +44,7 @@ function app() {
     isPrimeNumber(num_01);
     checkCanDrive(34);
     checkExamScore(6);
-    checkDni();
+    checkDni(dni_number);
 }
 
 app()

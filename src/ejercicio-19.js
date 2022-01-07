@@ -1,7 +1,6 @@
 // EJERCICIO-19:
 
-export let checkDni = () => {
-    let dni_number = parseInt(prompt ('Introduce número DNI entre 0 y 99999999'));
+export let checkDni = (dni_number) => {
 
     do {
         dni_number = prompt ('Introduce un dato numérico');
