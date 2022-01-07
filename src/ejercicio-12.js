@@ -1,9 +1,16 @@
 // EJERCICIO-12:
 
 export let checkNumberDivisibleBy = (num_01) => {
-    if (num_01 % 2 || num_01 % 3|| num_01 % 5 || num_01 % 7 == 0) {
-        document.getElementById('ejercicio-12-solucion').innerHTML = `El número ${num_01} es divisible por 2, 3, 5 o 7`;
+    let dividers = [2,3,5,7]
+    let count = 0;
+    for (let i = 0; i<dividers.length; i++){
+        if (num_01 % i  == 0) {
+            return count++;
+        }
+        if (num_01 % i != 0){
+            return count;
+        }
     }
-    document.getElementById('ejercicio-12-solucion').innerHTML = `El número ${num_01} no es divisible por 2, 3, 5 ni 7 `;
+    document.getElementById('ejercicio-12-solucion').innerHTML = `El número ${num_01} es divisible por ${count} de los siguientes números: 2, 3, 5 o 7`;    
 
 }
