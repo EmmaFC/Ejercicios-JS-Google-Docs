@@ -45,7 +45,7 @@ Ejercicio-18 : Pide una nota (número). Muestra la calificación según la nota:
 Ejercicio-19 : Calcula la letra del DNI (Documento nacional de identidad).
 El algoritmo para calcular la letra del dni es el siguiente :
 
-Ejercicio-20 : El número debe ser entre 0 y 99999999
+El número debe ser entre 0 y 99999999
 Debemos calcular el resto de la división entera entre el número y el número 23.
 Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)
 Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
