@@ -1,5 +1,5 @@
 // EJERCICIO-01:
 
-function writeHelloWorld(){
-    document.write ('Hello World');
+export function writeHelloWorld(){
+    document.getElementById('ejercicio-01-solucion').innerHTML = 'Hello World';
 }

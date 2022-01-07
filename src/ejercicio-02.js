@@ -1,3 +1,3 @@
 // EJERCICIO-02:
 
-let sumar = (a,b) => document.write(a + b);
+export let sumar = (a,b) => document.getElementById('ejercicio-02-solucion').innerHTML = (a + b);
