@@ -5,5 +5,6 @@ export let numberCommonDividers = (num_01, num_02) => {
         if (num_01 % i == 0 && num_02 % i == 0) {
             document.getElementById('ejercicio-15-solucion').innerHTML = `${i} es divisor común de los números ${num_01} y ${num_02}`;
         }
+        document.getElementById('ejercicio-15-solucion').innerHTML = `${num_01} y ${num_02} no tienen divisores comunes`;
     }
 }

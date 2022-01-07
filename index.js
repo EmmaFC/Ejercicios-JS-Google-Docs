@@ -43,7 +43,7 @@ function app() {
     isPrimeNumber(num_01);
     checkCanDrive(34);
     checkExamScore(6);
-    checkDNI(254236);
+    checkDni();
 }
 
 app()
